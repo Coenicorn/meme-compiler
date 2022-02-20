@@ -1,6 +1,8 @@
-#include <log.h>
+#include "log.h"
+
+Logger logger;
 
 int main()
 {
-    Log("Program executed successfully!");
+    logger.Log("Program executed successfully!");
 }
